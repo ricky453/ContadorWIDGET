@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="@dimen/widget_margin"
+android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/imgvWidget"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:background="#5c5c5c"
+    android:scaleType="centerCrop"
+    android:src="@drawable/imgpequena"/>
+
+<TextView
+    android:id="@+id/lblNumero"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="#00cafa"
+    android:textAlignment="center"
+    />
+
+</LinearLayout>
